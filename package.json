@@ -1,0 +1,16 @@
+{
+  "name": "nitish-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Nitish Kumar Yadav — Data Analyst (static site + zero-dependency Node backend)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "optionalDependencies": {
+    "nodemailer": "^6.9.13"
+  },
+  "license": "MIT"
+}
