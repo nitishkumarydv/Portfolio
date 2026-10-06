@@ -407,6 +407,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .project-media { aspect-ratio: 400 / 180; overflow: hidden; border-bottom: 1px solid var(--border); }
 .project-media svg { width: 100%; height: 100%; transition: transform .5s ease; }
 .project-card:hover .project-media svg { transform: scale(1.05); }
+.project-media img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform .5s ease; }
+.project-card:hover .project-media img { transform: scale(1.05); }
 
 .project-body { display: flex; flex-direction: column; gap: 12px; flex: 1; padding: 22px 24px 24px; }
 .project-body h3 { font-family: var(--font-display); font-size: 1.1rem; line-height: 1.35; }
